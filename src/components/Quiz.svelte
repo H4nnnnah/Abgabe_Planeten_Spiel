@@ -163,7 +163,7 @@
 
 {#if !showPopup}
     <h2>{question && question.question}</h2>
-    <p>die richtigte antwort ist {question && question.correctAnswer}</p>
+    <p>Wähle eine Antwort</p>
 {/if}
 
 {#if question}
